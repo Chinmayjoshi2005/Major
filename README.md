@@ -26,6 +26,8 @@ Blender Campus Model → Unity (Physics, Colliders, Player Controller, Cameras) 
 
 ## Quick Start
 
+See [requirements.txt](requirements.txt) for prerequisites and local/production run instructions.
+
 ```bash
 cd web-platform
 npm install

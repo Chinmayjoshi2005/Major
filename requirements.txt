@@ -1,0 +1,37 @@
+Campus Guide 3D - Requirements and Run Instructions
+===================================================
+
+This is a Next.js web application, not a Python project. Install its
+JavaScript dependencies from web-platform/package.json using npm.
+
+Requirements
+------------
+- Node.js 20 or newer
+- npm (included with Node.js)
+- A modern web browser
+
+Run locally
+-----------
+1. Open a terminal in the project directory.
+2. Run:
+
+   cd web-platform
+   npm install
+   npm run dev
+
+3. Open http://localhost:3000 in your browser.
+
+Production build
+----------------
+From the web-platform directory, run:
+
+   npm run build
+   npm run start
+
+The production server is available at http://localhost:3000.
+
+Dependency management
+---------------------
+The exact application dependencies and scripts are defined in
+web-platform/package.json. This file documents prerequisites and commands;
+it is not a pip requirements file.
